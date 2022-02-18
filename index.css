@@ -5,6 +5,7 @@
 
 *{
     color: #eafbfb;
+    scroll-behavior: smooth;
 }
 body {
     background-color: rgb(37, 37, 37);
@@ -174,7 +175,20 @@ p, div{
 .links i:hover {
     color: #1E90FF;
 }
+a:hover {
+    color: #389bff;
+}
 
+.source {
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+.top {
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+}
   
 @keyframes bounce {
     0%, 100% {
