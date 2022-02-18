@@ -1,9 +1,14 @@
 ::selection {
-    background-color: rgb(119, 255, 210);
+    background-color: #1E90FF;
+    color: rgb(37, 37, 37);
 }
 
+*{
+    color: #eafbfb;
+}
 body {
-    background-color: #eafbfb;
+    background-color: rgb(37, 37, 37);
+    color: #eafbfb;
     margin:0;
     font-family: 'Roboto', sans-serif;
     overflow-x:hidden;
@@ -15,7 +20,7 @@ p, div{
 .titleDiv{
     width:100%;
     height:5em;
-    background-color:#b8ffff;
+    background-color:#000000;
 }
 
 .titl{
@@ -29,10 +34,11 @@ p, div{
 
 .hey{
     font-size: 40px;
+    color: #eafbfb;
 }
 .name{
     font-size: 40px;
-    color: rgb(58, 78, 255);
+    color: #1E90FF;
     position: relative;
     top:-2.75em;
     animation: bounce 1.5s ease-in-out infinite;
@@ -54,10 +60,10 @@ p, div{
     border-radius: 10px;
     box-sizing: border-box;
     padding: 10px;
-    margin-top: 10px;
-    background-color: white;
+    background-color: rgb(37, 37, 37);
     margin: 20px;
     font-size: 1.5em;
+    border-style:dashed;
 }
 
 .list {
@@ -68,17 +74,17 @@ p, div{
 }
 .list div {
     float: left;
-    color: rgb(82, 163, 255);
-    border: 2px solid white;
+    color: rgb(95, 170, 255);
+    border: 2px solid rgb(87, 87, 87);
     text-align: center;
     padding: 14px 16px;
+    margin: 4px;
     border-radius: 10px;
     text-decoration: none;
 }
 
 .list div:hover {
     border-color: #1E90FF;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
     transition: all 0.2s ease-out;
 }
@@ -86,8 +92,7 @@ p, div{
 .inter{
     font-size: 40px;
     position: relative;
-    background-color: rgb(82, 163, 255);
-    color: whitesmoke;
+    background-color: rgb(42, 82, 128);
 }
 
 .projectsP{
@@ -101,9 +106,10 @@ p, div{
     box-sizing: border-box;
     padding: 10px;
     margin-top: 10px;
-    background-color: white;
+    background-color: rgb(37, 37, 37);
     margin: 20px;
     font-size: 1.5em;
+    border-style:dashed;
 }
 
 .listProj {
@@ -112,19 +118,26 @@ p, div{
     border-radius: 10px;
 }
 .listProj div {
-    color: rgb(82, 163, 255);
-    border: 2px solid white;
+    color: rgb(95, 170, 255);
+    border: 2px solid rgb(87, 87, 87);
     padding: 14px 16px;
+    margin: 8px;
     border-radius: 10px;
     width:fit-content;
 }
 
 .listProj div:hover {
     border-color: #1E90FF;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
     transition: all 0.2s ease-out;
 }
+.listProj a{
+    color: rgb(95, 170, 255);
+}
+.listProj a{
+    color: rgb(195, 215, 236);
+}
+
 .contP{
     font-size: 40px;
     text-align: center;
@@ -150,13 +163,15 @@ p, div{
     border-radius: 10px;
     animation: bounce 1.5s ease-in-out infinite;
 }
-a:link {
+
+
+.links a:link {
     color: #1f1f1f;
 }
-a:visited {
+.links a:visited {
     color: #1f1f1f;
 }
-a:hover {
+.links i:hover {
     color: #1E90FF;
 }
 
